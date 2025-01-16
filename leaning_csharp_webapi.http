@@ -1,6 +1,30 @@
 @leaning_csharp_webapi_HostAddress = http://localhost:5074
 
-GET {{leaning_csharp_webapi_HostAddress}}/weatherforecast/
+GET {{leaning_csharp_webapi_HostAddress}}/api/post/
 Accept: application/json
 
 ###
+GET {{leaning_csharp_webapi_HostAddress}}/api/post/1c5fa7bc-e5e3-4f45-a190-2db4eb1af1de
+Accept: application/json
+
+###
+POST {{leaning_csharp_webapi_HostAddress}}/api/post
+Content-Type: application/json
+
+{
+    "title": "Meu novo post  2",
+    "content": "Conteúdo do post 2"
+}
+
+###
+PUT {{leaning_csharp_webapi_HostAddress}}/api/post/1c5fa7bc-e5e3-4f45-a190-2db4eb1af1de
+Content-Type: application/json
+
+{
+    "title": "atualizando o titulo",
+    "content": "atualizando o post "
+}
+
+###
+DELETE {{leaning_csharp_webapi_HostAddress}}/api/post/86c41b2c-8794-4ea5-bf95-bd1c7467f426
+Accept: application/json
