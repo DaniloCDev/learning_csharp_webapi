@@ -26,5 +26,5 @@ Content-Type: application/json
 }
 
 ###
-DELETE {{leaning_csharp_webapi_HostAddress}}/api/post/86c41b2c-8794-4ea5-bf95-bd1c7467f426
+DELETE {{leaning_csharp_webapi_HostAddress}}/api/post/e09c8295-c432-45f5-8a89-896a2f74c467
 Accept: application/json
